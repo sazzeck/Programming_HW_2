@@ -1,4 +1,4 @@
-from .pw import SentenceManipulator
+from .task import SentenceManipulator
 
 __version__ = '0.1.0'
 

@@ -1,4 +1,4 @@
-from .pw import SentenceManipulator
+from .task import SentenceManipulator
 
 manipulator = SentenceManipulator()
 
