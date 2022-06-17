@@ -1,5 +1,5 @@
-from .task import SentenceManipulator
+from .task import SentenceEditor
 
 __version__ = '0.1.0'
 
-__all__ = ['SentenceManipulator']
+__all__ = ['SentenceEditor']

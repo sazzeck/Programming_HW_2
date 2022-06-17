@@ -1,12 +1,10 @@
-from .task import SentenceManipulator
+from .task import SentenceEditor
 
-manipulator = SentenceManipulator()
+sentence_editor = SentenceEditor()
 
 test = input("Enter the sentence: ")
 length = input("Enter word lenght: ")
 
-manipulator.add_sentence(test)
-
 if __name__ == "__main__":
-    print(manipulator.word_length)
-    print(manipulator.search_words_length(length))
+    print(sentence_editor.add_sentence(test))
+    print(sentence_editor)
